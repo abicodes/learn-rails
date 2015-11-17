@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Topic:</strong>
+  <%= @learn.topic %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @learn.description %>
+</p>
+
+<%= link_to 'Edit', edit_learn_path(@learn) %> |
+<%= link_to 'Back', learns_path %>
